@@ -15,7 +15,7 @@ rc = call(script,shell=True)
 print ("finish")
 
 
-f = open('file.txt','r')
+f = open('Response.txt','r')
 
 contents = f.read()
 contents = contents.split('\n',1)[1]
